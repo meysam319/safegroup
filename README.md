@@ -200,7 +200,7 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ```bash
 # After those dependencies, lets install the bot
 cd $HOME #Do not write this if you are using c9 or not root accounts
-git clone https://github.com/Josepdal/safegroup.git
+git clone https://github.com/meysam319/safegroup.git
 cd safegroup
 ./launch.sh install
 ./launch.sh # Will ask you for a phone number & confirmation code.
@@ -215,7 +215,7 @@ Then, you have to install a bot language like this:
 #lang en
 ```
 
-Enable more [`plugins`](https://github.com/yagop/Talibot/tree/supergroups/plugins)
+
 -------------
 See the plugins list with `!plugins` command.
 
