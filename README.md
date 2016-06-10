@@ -1,4 +1,4 @@
-DBTeam-bot
+safegroup
 ============
 
 A Telegram Bot based on plugins using [tg](https://github.com/vysheng/tg).
@@ -200,14 +200,14 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ```bash
 # After those dependencies, lets install the bot
 cd $HOME #Do not write this if you are using c9 or not root accounts
-git clone https://github.com/Josepdal/DBTeam.git
-cd DBTeam
+git clone https://github.com/Josepdal/safegroup.git
+cd safegroup
 ./launch.sh install
 ./launch.sh # Will ask you for a phone number & confirmation code.
 ```
 You can also use this command to install the bot in just one step.
 ```bash
-sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get autoremove && sudo apt-get autoclean && sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make unzip git redis-server g++ libjansson-dev libpython-dev expat libexpat1-dev -y && cd $HOME && rm -rf DBTeam && rm -rf .telegram-cli && git clone https://github.com/Josepdal/DBTeam.git && cd DBTeam && ./launch.sh install && ./launch.sh
+sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get autoremove && sudo apt-get autoclean && sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make unzip git redis-server g++ libjansson-dev libpython-dev expat libexpat1-dev -y && cd $HOME && rm -rf DBTeam && rm -rf .telegram-cli && git clone https://github.com/meysam319/safegroup.git && cd safegroup && ./launch.sh install && ./launch.sh
 ```
 Then, you have to install a bot language like this:
 ```
@@ -237,26 +237,4 @@ $ sudo start telegram # To start it
 $ sudo stop telegram # To stop it
 ```
 
-DBTeam support and development groups
--------------------------------------
 
-[![https://telegram.me/joinchat/C142CD3GT-26EFdxu_lW0g](https://img.shields.io/badge/%F0%9F%92%AC_Telegram-Support_EN-blue.svg)](https://telegram.me/joinchat/C142CD3GT-26EFdxu_lW0g) [![https://telegram.me/joinchat/C142CD5wPizyWWg4R3TJLw](https://img.shields.io/badge/%F0%9F%92%AC_Telegram-Soporte_ES-blue.svg)](https://telegram.me/joinchat/C142CD5wPizyWWg4R3TJLw) [![https://telegram.me/joinchat/BbkmWz2Ozu7EakNpixOJ5A](https://img.shields.io/badge/%F0%9F%92%AC_Telegram-Support_FA-blue.svg)](https://telegram.me/joinchat/BbkmWz2Ozu7EakNpixOJ5A)
-
-DBTeam developers
------------------
-
-[![https://telegram.me/Josepdal](https://img.shields.io/badge/%F0%9F%92%AC_Telegram-Josepdal-blue.svg)](https://telegram.me/Josepdal) [![https://telegram.me/MaSkAoS](https://img.shields.io/badge/%F0%9F%92%AC_Telegram-Juan-blue.svg)](https://telegram.me/MaSkAoS)
-
-Yagop developer and bot development group
------------------------------------------
-
-[![https://telegram.me/Yago_Perez](https://img.shields.io/badge/💬_Telegram-Yago__Perez-blue.svg)](https://telegram.me/Yago_Perez) [![https://telegram.me/joinchat/ALJ3izwBCNXSswCHOKMwGw](https://img.shields.io/badge/💬_Telegram-Bot._Group-blue.svg)](https://telegram.me/joinchat/ALJ3izwBCNXSswCHOKMwGw) [![https://gitter.im/yagop/telegram-bot](https://img.shields.io/badge/💬_Gitter-Join_Chat-green.svg)](https://gitter.im/yagop/telegram-bot])
-
-Other interesting sites
------------------------
-
-[![Donate button](https://img.shields.io/badge/Red_Cross-donate-yellow.svg)](https://www.icrc.org/ "Donate to Red Cross Society") [![http://taligram.org](https://img.shields.io/badge/Taligram.org-Visit_us-blue.svg)](http://taligram.org)
-
-Contact us
-------------
-You can contact us in groups said before but if you have an issue please [open](https://github.com/Josepdal/DBTeam/issues) one.
